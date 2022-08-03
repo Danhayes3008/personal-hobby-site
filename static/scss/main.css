@@ -6,6 +6,13 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+.card {
+  display: inline-block;
+  width: 20vw;
+  height: 90%;
+  padding: 2vh;
+}
+
 .container {
   padding: 3vh;
   margin: 3vh;
@@ -20,8 +27,10 @@ body {
 }
 
 .content-area-2 {
-  height: 20vh;
+  display: block;
+  height: 25vh;
   padding: 2vh;
+  margin: 2vh 0vh 2vh 0vh;
 }
 
 .live-status {
