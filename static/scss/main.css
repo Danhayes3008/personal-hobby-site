@@ -2,12 +2,75 @@ body {
   padding: 0;
   margin: 0;
   max-width: 100vw;
-  background-color: #b3dcec;
+  background-color: #f3f2ef;
   font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  padding: 3vh;
+  margin: 3vh;
+  background-color: white;
+  -webkit-box-shadow: 5px 5px 5px 5px grey;
+          box-shadow: 5px 5px 5px 5px grey;
+}
+
+.content-area-1 {
+  height: 45vh;
+  padding: 2vh;
+}
+
+.content-area-2 {
+  height: 20vh;
+  padding: 2vh;
+}
+
+.live-status {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin-top: 2vh;
+  margin-left: 0.5vw;
+  background-color: red;
+  border-radius: 50%;
 }
 
 nav {
   width: 100vw;
-  height: 6vh;
-  padding: 5%;
+  height: 5vh;
+  background-color: dodgerblue;
+  -webkit-box-shadow: 5px 5px 5px 5px grey;
+          box-shadow: 5px 5px 5px 5px grey;
+}
+
+.navbar-collapse {
+  height: 100%;
+}
+
+.navbar-nav {
+  height: 100%;
+  margin: 0;
+  line-height: 5vh;
+}
+
+.navbar-nav li {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  padding: 0vw 1vw 0vw 1vw;
+  height: 100%;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.navbar-nav li:hover {
+  background-color: #135597;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.navbar-nav li a {
+  padding: 0vw 1vw 0vw 1vw;
+  color: white;
+  text-decoration: none;
+  white-space: nowrap;
 }
