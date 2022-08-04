@@ -13,6 +13,10 @@ body {
   padding: 2vh;
 }
 
+.card h5 {
+  color: blue;
+}
+
 .container {
   padding: 3vh;
   margin: 3vh;
