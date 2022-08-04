@@ -13,7 +13,7 @@ class blenderModels(models.Model):
     name = models.CharField(max_length=50, null=True, unique=True, blank=False)
     catagory = models.CharField(max_length=50, choices=CATAGORY, null=True, blank=True, unique=False)
     video = models.FileField(upload_to = 'static/video/%y', null=True, blank=True)
-    image = models.ImageField(upload_to = 'static/images', null=True, blank=True)
+    image = models.ImageField(upload_to = 'media/static/images', null=True, blank=True)
     description = models.CharField(max_length=500, null=True, unique=False, blank=False)
     date = models.DateField(auto_now_add=True)
 

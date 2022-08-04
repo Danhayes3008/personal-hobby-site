@@ -13,6 +13,10 @@ body{
 }
 .card h5{
     color: blue;
+    text-align: center;
+}
+.card-img{
+    width: 100%;
 }
 .container{
     padding: 3vh;
@@ -22,12 +26,11 @@ body{
 }
 
 .content-area-1{
-    height: 45vh;
+    display: block;
     padding: 2vh;
 }
 .content-area-2{
     display: block;
-    height: 25vh;
     padding: 2vh;
     margin: 2vh 0vh 2vh 0vh;
 }
